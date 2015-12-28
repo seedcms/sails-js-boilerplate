@@ -1,2 +1,4 @@
 # SailsJS 11.0 Boilerplate
-Basic set up of sails JS
+Sails auth with Passport
+Semantic UI
+Font Awesome
