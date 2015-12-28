@@ -3,10 +3,24 @@
     <%= __(error) %>
   <% }) %>
 <% } %>
-
-<form role="form" action="/auth/local/register" method="post">
-  <input type="text" name="username" placeholder="Username">
-  <input type="text" name="email" placeholder="Email">
-  <input type="password" name="password" placeholder="Password">
-  <button type="submit">Sign up</button>
+<h1 class="ui header">
+  <i class="fa fa-rocket"></i>
+  <div class="content">
+    Sign Up
+  </div>
+</h1>
+<form role="form" action="/auth/local/register" method="post" class="ui form">
+  <div class="field">
+   <label>Username</label>
+   <input type="text" name="username" placeholder="Username">
+  </div>
+  <div class="field">
+   <label>Email</label>
+   <input type="text" name="email" placeholder="Email">
+  </div>
+  <div class="field">
+   <label>Password</label>
+   <input type="password" name="password" placeholder="Password">
+  </div>
+  <button type="submit" class="ui button blue large">Sign up</button>
 </form>
