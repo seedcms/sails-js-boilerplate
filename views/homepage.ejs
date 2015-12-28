@@ -72,5 +72,6 @@ setTimeout(function sunrise () {
         </div>
     </div>
 </div>
-User ID:
-<%= req.session.passport.user %>
+<% if(req.session.passport){ %>
+  USER ID:  <%= req.session.passport.user %>
+<% } %>
